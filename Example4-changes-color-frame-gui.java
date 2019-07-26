@@ -1,4 +1,4 @@
-package homework4;
+package exp4;
 
 import javax.swing.*;
 import java.awt.*;
@@ -6,8 +6,8 @@ import java.awt.event.*;
 import java.awt.color.*;
 
 
-	public class homework4 extends JFrame implements ActionListener {
-		public homework4() {
+	public class exp4 extends JFrame implements ActionListener {
+		public exp4() {
 			setLayout(new FlowLayout());
 			JButton buttonb = new JButton("Blue");
 			JButton buttong = new JButton("Gray");
@@ -40,7 +40,7 @@ import java.awt.color.*;
 		}
 
 		public static void main(String[] args) {
-			new homework4();
+			new exp4();
 		}
 
 	}
